@@ -3,26 +3,93 @@
 
 <head>
   <title>Zach Clenaghan</title>
-  <link rel="stylesheet"href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link href="main.css" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+    <!--css file-->
+    <link href="main.css" rel="stylesheet">
+
+    <!--fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-<div="container-fluid"
-<nav class="navbar">
-    <a href="#">Home</a>
-    <a href="#">Me</a>
-    <a href="#">Portfolio</a>
-    <a href="#">Contact</a>
+<div class="container-fluid">
+<nav id="my-nav-bar" class="navbar navbar-fixed-top">
+    <div id="row-in-navbar" class="row">
+        <div ><a class="btn btn-default col-xs-2 navbar-button" href="#headline-section">Home</a></div>
+        <div ><a class="btn btn-default col-xs-2 navbar-button" href="#location-section">Location</a></div>
+        <div ><a class="btn btn-default col-xs-2 navbar-button" href="#portfolio-section">Portfolio</a></div>
+        <div ><a class="btn btn-default col-xs-2 navbar-button" href="#contact-section">Contact</a></div>
+    </div>
 </nav>
 
-<h1>My name is Zach</h1>
-<h2>And this is my website</h2>
 
-<!-- what I'm doing right now -->
-<div id="current-activities">
+<div id="headline-section" class="container section" data-stellar-background-ratio="0.5">
+    <h1 class="text-center">My name is Zach</h1>
+    <h2 class="text-center">And this is my website</h2>
+</div>
+
+<!-- where I am right now -->
+<div id="location-section" class="container section" data-stellar-background-ratio="0.5">
     <h2>Current location: </h2>
-    <
+    <p>I am in Taghazout, living and working at Sundesk, a co-working and co-living space</p>
+</div>
+
+<!--what I'm doing right now-->
+<div id="activities-section" class="container section" data-stellar-background-ratio="0.5">
+    <h2>What I'm working on: </h2>
+    <p>I am currently working through the <a href="http://www.freecodecamp.com">Free Code Camp</a>, which is an online front and back end web development course with 800 hours of instruction.
+    <p>I'm also working on my surfing, although I'm way out of shape at the moment which is hindering my progress :(.</p>
+</div>
+
+<!--What my goals are-->
+<div id="goals-section" class="container section" data-stellar-background-ratio="0.5">
+    <h2>Goals as at 31st October 2015 </h2>
+
+    <div id="3-month" class="container">
+        <h3>3 month: </h3>
+            <ul>
+                <li>Complete the first 800 hours of <a href="http://www.freecodecamp.com">Free Code Camp</a></li>
+                <li>Surf 5 times a week whilst in Taghazout</li>
+            </ul>
+    </div>
+    <div id="1-year" class="container">
+        <h3>1 year: </h3>
+            <ul>
+                <li>Be employable as a junior web developer</li>
+                <li>Curated a list of developers of all types from across the world</li>
+                <li>Travelled India and South America extensively</li>
+            </ul>
+    </div>
+    <div id="3-year"class="container">
+        <h3>3 year: </h3>
+            <ul>
+                <li>Be self employed, or a co-founder of a company</li>
+                <li>Be able to work from anywhere in the world</li>
+    </div>
+</div>
+<!--Portfolio-->
+<div id="portfolio-section" class="container section" data-stellar-background-ratio="0.5">
+    <h2>My Portfolio: </h2>
+
+</div>
+
+<div id="contact-section" class="container section" data-stellar-background-ratio="0.5">
+    <h2>Contact me at: </h2>
+    <p><strong>email:</strong> zach.clenaghan@gmail.com</p>
+    <p></p>
+</div>
+
 
 
 
@@ -30,7 +97,18 @@
 </div>
 </body>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--jQuery-->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 
+    <!--bootstrap-->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+    <!--Stellar.js for Parallax scrolling-->
+    <script src="jquery.stellar.min.js"></script>
+
+    <script>
+        $.stellar();
+    </script>
 
 </html>

@@ -1,4 +1,36 @@
 body {
-      background-color: black;
-      font-family: comic;
+    background-color: black;
+    font-family: 'Amaranth', monospace;
+    color: white;
+    padding-top: 70px;
+
+}
+
+#my-nav-bar {
+    background: white;
+    border-style: ridge;
+    border-width: thick;
+}
+
+.navbar-button {
+    color: black;
+    font-family: 'Amaranth';
+}
+
+#row-in-navbar {
+    padding-top: 3px;
+}
+
+#headline-section {
+    background-image: url("/Users/Clenners/GitHub/clenners.github.io/clenners-imgs/Reflections of Fitz Roy _ Flickr - Photo Sharing!_files/14590960997_19fb554057_k.jpg");
+
+
+}
+
+
+.section {
+    height: 80%;
+    border-bottom-style: groove;
+    border-color: white;
+    background-attachment: fixed;
 }
