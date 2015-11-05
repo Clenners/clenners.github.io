@@ -4,6 +4,7 @@ body {
     color: white;
     padding-top: 70px;
 
+
 }
 
 #my-nav-bar {
@@ -22,15 +23,25 @@ body {
 }
 
 #headline-section {
-    background-image: url("/Users/Clenners/GitHub/clenners.github.io/clenners-imgs/Reflections of Fitz Roy _ Flickr - Photo Sharing!_files/14590960997_19fb554057_k.jpg");
+    background-image: url("clenners-imgs/Reflections of Fitz Roy _ Flickr - Photo Sharing!_files/14590960997_19fb554057_k.jpg");
 
 
 }
 
+#location-section {
+    background-image: url("clenners-imgs/Location photo/IMG_4876.jpg");
+    text-shadow: black;
+}
+
 
 .section {
-    height: 80%;
+    height: 100vh;
     border-bottom-style: groove;
     border-color: white;
     background-attachment: fixed;
+    padding-top: 80px
+}
+
+h1 {
+    font-size: 300%;
 }
